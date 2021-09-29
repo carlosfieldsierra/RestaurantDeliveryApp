@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "948919900781",
+    "project_id": "ruderestaurant-e21bf",
+    "storage_bucket": "ruderestaurant-e21bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948919900781:android:ff70a8e205efef4174bd64",
+        "android_client_info": {
+          "package_name": "com.RudeRamen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948919900781-bj8417io3v4fk4rpg3r8ej65dbq66nb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AAAA3PAImm0:APA91bH4DFl1p-qUbsJGDuCqBWPU4JHjrqeS-_3kXP-x0p5-ZIB0xazrVVg2gLh8f0oqyEOJuq7frmPfHUZAMQ5b7YOKpCuDR3fuCVO9e-bkMsNbWi1j5Jpyz7sKPrWA7PJl5NKwzYZW"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948919900781-bj8417io3v4fk4rpg3r8ej65dbq66nb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
