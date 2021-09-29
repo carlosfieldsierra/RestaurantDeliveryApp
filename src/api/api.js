@@ -8,13 +8,12 @@ import React, { useEffect } from "react";
 // config
 const firebaseConfig = {
   apiKey: "AIzaSyBk7sHiW7lXZzWTstDEXyEncdCDJjqa2FY",
-  authDomain: "ruderestaurant-e21b.firebaseapp.com",
-  databaseURL: "https://ruderestaurant-e21b.firebaseio.com",
-  projectId: "ruderestaurant-e21b",
-  storageBucket: "ruderestaurant-e21b.appspot.com",
-  messagingSenderId: "sender-id",
-  appId: "1:948919900781:android:ff70a8e205efef4174bd64",
-  measurementId: "G-measurement-id",
+  authDomain: "ruderestaurant-e21bf.firebaseapp.com",
+  projectId: "ruderestaurant-e21bf",
+  storageBucket: "ruderestaurant-e21bf.appspot.com",
+  messagingSenderId: "948919900781",
+  appId: "1:948919900781:web:0ea059757b3a5f8d74bd64",
+  measurementId: "G-5B15FM4BP9"
 };
 
 // initilize app

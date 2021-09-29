@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { View, Text } from "react-native";
 
 import firebase from "firebase/app";
-import messaging from "@react-native-firebase/messaging";
+// import messaging from "@react-native-firebase/messaging";
 
 //data layer
 import { UserContext } from "../store/UserProvider";
@@ -18,27 +18,25 @@ import ShoppingCartScreen from "./ShoppingCartScreen";
 
 // request perm and then subscribe to 'weather'
 // and listen to messages
-async function requestUserPermission() {
-  const authStatus = await messaging().requestPermission();
-  const enabled =
-    authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
-    authStatus === messaging.AuthorizationStatus.PROVISIONAL;
+// async function requestUserPermission() {
+//   const authStatus = await messaging().requestPermission();
+//   const enabled =
+//     authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
+//     authStatus === messaging.AuthorizationStatus.PROVISIONAL;
 
-  if (enabled) {
-    const unsubscribe = messaging().onMessage(async (remoteMessage) => {
-      console.log("A new FCM message arrived!", JSON.stringify(remoteMessage));
-    });
-    messaging()
-      .subscribeToTopic("weather")
-      .then(() => console.log("Subscribed to topic Weather!"));
-  }
-}
+//   if (enabled) {
+//     const unsubscribe = messaging().onMessage(async (remoteMessage) => {
+//       console.log("A new FCM message arrived!", JSON.stringify(remoteMessage));
+//     });
+//     messaging()
+//       .subscribeToTopic("weather")
+//       .then(() => console.log("Subscribed to topic Weather!"));
+//   }
+// }
 
-export default class HomeScreen extends Component {
-  componentDidMount() {
-    requestUserPermission();
-  }
-  render() {
+export default  HomeScreen = (props)=> {
+  
+  
     return (
       <NavigationContainer>
         <Stack.Navigator>
@@ -54,5 +52,5 @@ export default class HomeScreen extends Component {
         </Stack.Navigator>
       </NavigationContainer>
     );
-  }
+
 }
